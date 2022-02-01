@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+ <meta charset =" UTF-8 ">
+ <meta name = "viewport" content="width device-width, initial-scale=1.0">
+<title>Exercícios HTML5</title>
+</head>
+<body>
+<h3> <em>Lista de exercícios HTML5 </em> </h3> 
+<p><a title="micaelle"> <i> Eu sou uma <br>desenvolvedora <br></i> </a></p>
+<img src="Img/img1.jpg" alt="some text" width=250 height=350>
+<hr>
+<a class="button button5" href="https://marneicardoso.com/" role="button"target="_blank"><i><strong>  Clique aqui para entrar no site do prof.Marnei </strong></i></a>
+<hr>
+<a href="https://marneicardoso.com/" role="button"target="_blank"><img src="img/img6.jpg" alt="some text" width=25% height=350  title="Site do Prof. Marnei Cardoso."> ></a>
+</body>
+</html>
+
+1. Crie um novo arquivo chamado: exerc01.html
+
+2. Mude o title para: Exercícios HTML5
+
+3. Adicione um cabeçalho h3 e escreva: Lista de Exercícios HTML5
+
+4. Adicione um parágrafo com a declaração: Eu sou um(a) ótimo(a) Desenvolvedor(a)
+
+5. No mesmo parágrafo, adicione um atributo que ao passar o mouse, mostre o texto com o teu nome.
+
+6. Adicione uma imagem com 250 pixels de largura e 350 pixels de altura.
+
+7. Crie um link para o site marneicardoso.com (deve abrir numa nova janela/aba).
+
+8. Adicione uma linha entre a imagem e o link.
+
+9. Adicione uma quebra de linha antes da palavra: Desenvolvedor(a)
+
+10. Adicione outra imagem com 25% de largura.
+
+11. Transforme a imagem num link para o site marneicardoso.com (deve abrir numa nova janela/aba).
+
+12. Nesta imagem adicione um atributo que ao passar o mouse, mostre o texto: Site do Prof. Marnei Cardoso.
