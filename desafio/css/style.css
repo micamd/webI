@@ -1,0 +1,141 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color:rgb(236, 236, 236);
+}
+
+.container{
+    display: grid;
+}
+
+.layout1{
+    background-color: rgb(224, 137, 22);
+    font-family: 'Space Mono', monospace;
+    color: white;
+    text-align:left;
+    font-size: 15px;
+    padding: 20px 55px 10px 55px;
+    border-radius: 3px ;
+}
+.button1 {
+    display: flex;
+    margin: 65px auto auto auto;
+}
+
+.button1 button {
+    border-radius: 25px;
+    border: 1px white;
+    font-family: 'Space Mono', monospace;
+    padding: 15px 25px;
+    font-size: 17px;
+    color: rgb(224, 137, 22);
+    width: 100%;
+    transition: 0.5s;
+}
+.btn-acessar1:hover{
+    background-color: rgb(224, 137, 22);
+    color: #ffffff;
+    border: solid 2px white;
+}
+
+.layout2{
+    background-color:rgb(15, 105, 105);
+    font-family: 'Space Mono', monospace;
+    color: white;
+    text-align:left;
+    font-size: 15px;
+    padding: 20px 55px 10px 55px;
+}
+
+.button2 {
+    display: flex;
+    margin: 50px auto auto auto;
+}
+
+.button2 button {
+    border-radius: 25px;
+    border: 1px white;
+    font-family: 'Space Mono', monospace;
+    padding: 15px 25px;
+    font-size: 15px;
+    color: rgb(15, 105, 105);
+    width: 100%;
+    transition: 0.5s;
+}
+
+.btn-acessar2:hover{
+    background-color: rgb(15, 105, 105);
+    color: #ffffff;
+    border: solid 2px white;
+}
+.layout3{
+    background-color: rgb(1, 65, 62);
+    font-family: 'Space Mono', monospace;
+    color: white;
+    text-align:left;
+    font-size: 15px;
+    padding: 20px 55px 10px 55px;
+    border-radius: 3px;
+}
+
+.button3 {
+    display: flex;
+    margin: 65px auto auto auto;
+}
+
+.button3 button {
+    border-radius: 25px;
+    border: 1px white;
+    font-family: 'Space Mono', monospace;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: rgb(1, 65, 62);
+    width: 100%;
+    transition: 0.5s;
+}
+.btn-acessar3:hover{
+    background-color: rgb(1, 65, 62);
+    color: #ffffff;
+    border: solid 2px white;
+}
+@media (min-width: 300px) {
+    div {
+        width: 65%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+@media (min-width: 576px) {
+    div {
+        width: 65%;
+    }
+
+    img {
+        width: 38%;
+    }
+}
+@media (min-width: 768px) {
+    div{
+        width: 70%;
+    }
+}
+@media (min-width: 992px) {
+    div{
+        margin: 50px 70px 50px 50px;
+        grid-template-columns: 360px 360px 360px;
+        grid-template-rows: 510px 510px 510px;
+    }
+    h3{
+        font-size: 45px;
+    }
+    img {
+        width: 60px;
+    }
+}
+@media (min-width: 1200px) {
+    img {
+        width: 15%;
+    }
+}
