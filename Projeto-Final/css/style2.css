@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/login4.png);
+    background-color:#F8F2D2;
+    background-repeat: no-repeat;
+    background-size:auto;
+    padding: 80px 0px 10px 800px;
+    height: 500px;
+}
+
+#modal{
+    margin: 25px auto;
+    padding: 30px 100px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    transform: translatex(-20px);
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: solid 1px #ddd;
+    outline: none;
+}
+
+a{
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#modal a{
+    background-color:rgb(187, 166, 49);
+}
+
+#modal a:hover{
+    background-color:rgb(202, 180, 57);
+}
+
+#modal.animar{
+    animation-name: slide;
+    animation-duration: 0.3s;
+    animation-timing-function: ease;
+}
+
+#load{
+    margin: auto;
+    width: 35px;
+    height: 35px;
+    border: solid 2px;
+    border-radius: 50%;
+
+    border-top-color: #008cff;
+    border-left-color: #008cff77;
+    border-bottom-color: #008cff55;
+    border-right-color: #008cff33;
+
+    display: none;
+}
+
+#load.loader{
+    animation-name: load;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#status{
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+@keyframes slide{
+    50%{
+        transform: translatex(5px);
+    }
+    100%{
+        transform: translatex(0);
+    }
+}
+
+@keyframes load {
+    to{
+        transform: rotate(360deg);
+    }
+}
